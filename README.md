@@ -102,6 +102,16 @@ Theme command
 
 ```
 
+Scaffold
+```
+
+wp scaffold _s <theme-name> --theme_name="<Theme Name>" --author="<Author Name>" --author_uri="<Author URI>" --activate
+
+// Demo Data
+wp scaffold _s my-theme --theme_name="My Theme" --author="John Doe" --author_uri="https://example.com" --activate
+
+```
+
 User lists
 ```
 
