@@ -88,7 +88,6 @@ Plugin command
 
 >> wp plugin update --all
 
-
 ```
 
 Theme command
@@ -128,7 +127,6 @@ Database Commands:
 >> wp db import filename.sql
 >> wp db optimize
 
-
 ```
 
 Post Commands:
@@ -136,7 +134,6 @@ Post Commands:
 >> wp post create --post_type=post --post_title='Your Post Title' --post_status=publish
 
 >> wp post list
-
 
 ```
 
