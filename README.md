@@ -152,7 +152,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
     }
     WP_CLI::add_command( 'my_command', 'My_Custom_Command' );
 }
-
+''
 require_once get_template_directory() . '/path/to/my-command.php';
 
 // Run command:
@@ -160,7 +160,13 @@ wp my_command
 
 ```
 
-Dependecies
+Dependecies:
 - Composer
 - GitBash
-- CMD 
+- CMD
+
+Resouces:
+<br><a href="https://make.wordpress.org/cli/handbook/">WP-CLI Handbook</a>
+<br><a href="https://developer.wordpress.org/cli/commands/">WP-CLI Commands</a>
+<br><a href="https://make.wordpress.org/cli/handbook/quick-start/">Quick Start</a>
+
