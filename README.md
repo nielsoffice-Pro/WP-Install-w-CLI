@@ -4,6 +4,10 @@
 
 ``` 
 
+// Live
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+// localhost
 curl --ssl-no-revoke -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 
 ```
