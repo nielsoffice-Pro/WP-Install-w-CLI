@@ -47,6 +47,8 @@ Press Win + R, type sysdm.cpl, and press Enter.
 
 #Test the Installation
   wp --info
+  php wp-cli.phar --info
+
 
 ```
 
